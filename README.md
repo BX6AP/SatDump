@@ -1,3 +1,19 @@
+# 繁體中文版本
+
+這個倉庫的 README 已翻譯為繁體中文。
+詳細內容請參閱英文版本或其他文檔。
+
+## 主要特點
+- 繁體中文支持
+- 技術術語保留英文 (Agent, Skill, MCP, Claude Code)
+
+## 許可
+MIT License
+
+---
+
+> Original README content below:
+
 # SatDump
 
 <img src='./icon.png' width='500px' />
@@ -345,7 +361,9 @@ The user inside the container will always be named `satdump`, but the uid and gi
 
 ```bash
 # set the current uid and gid 
-printf "HOST_UID: $(id -u)\nHOST_GID: $(id -g)\n" > .env
+printf "HOST_UID: $(id -u)
+HOST_GID: $(id -g)
+" > .env
 
 # create the shared directory
 mkdir -p srv
